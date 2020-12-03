@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title> Top 20 Film Locations </title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+  <link rel="stylesheet" href="css/first_map.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Maps</a>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Film Locations
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="first_map.html">Regatta Locations</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center m-3">20 Most Filmed Locations In The US</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col m-3">
+        <div id="filmlocations"></div>
+      </div>
+    </div>
+
+    <div class="row justify-content-around">
+      <div class="col-7 mt-3">
+        <p class="text-center">On this map you'll find the 20 most filmed locations within the United States over the past 20 years.  This list was gathered from GoCompare.com's On Location project which you can find <a href="https://www.gocompare.com/travel-insurance/on-location/#/locations">here</a>. As you can see all locations were either in California or New York. Zoom in to see the names of these locations and how many movies or shows were shot there.</p>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col">
+        <p class="text-center"><small>This page was created by Emma Ross in 2020. The page is for a project using Leaflet and MapBox. You can click here to view the github repo.</small></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- javascript -->
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script src="js/places.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+</body>
+</html>
